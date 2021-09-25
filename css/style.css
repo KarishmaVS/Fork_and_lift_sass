@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+@font-face {
+  font-family: "Circular-Std-Regular";
+  src: url("../fonts/CircularStd-Regular.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Regular.woff") format("woff");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Circular-Std-Bold";
+  src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+  src: url("../fonts/CircularStd-Bold.woff") format("woff");
+  font-style: normal;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+#home header {
+  -webkit-box-shadow: 5px 10px #e0e0e0;
+          box-shadow: 5px 10px #e0e0e0;
+  padding: 40px 60px;
+}
+
+#home header div.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home header div.wrapper h1 {
+  width: 25%;
+}
+
+#home header div.wrapper h1 a {
+  display: block;
+}
+
+#home header div.wrapper h1 a img {
+  width: 100%;
+}
+
+#home header div.wrapper nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home header div.wrapper nav ul li {
+  margin-right: 30px;
+}
+
+#home header div.wrapper nav ul li a {
+  font-size: 30px;
+  font-weight: 600;
+  color: #5e5e5e;
+}
+
+#spotlight {
+  background: url(../images/Image-1.png);
+  background-position: right 115px bottom 20px;
+  background-size: 39%;
+  background-repeat: no-repeat;
+  padding: 60px;
+}
+
+#spotlight section.wrapper div.container div.box {
+  background: #2d2d2d;
+  display: inline-block;
+}
+
+#spotlight section.wrapper div.container div.box h1 {
+  font-size: 70px;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+#spotlight section.wrapper div.container h2 {
+  font-size: 48px;
+  margin: 10px 0;
+}
+
+#spotlight section.wrapper div.container p {
+  font-size: 26px;
+  margin: 10px 0;
+  color: #6a6a6a;
+}
+
+#spotlight section.wrapper div.container button {
+  margin-top: 30px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 21px;
+  text-transform: capitalize;
+  color: #2d2d2d;
+  width: 22%;
+  padding: 10px 30px;
+  border: 3px solid #2d2d2d;
+  border-radius: 50px;
+}
+
+#spotlight section.wrapper div.container button div.img-container {
+  width: 43px;
+}
+
+#spotlight section.wrapper div.container button div.img-container img {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
